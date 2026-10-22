@@ -1,0 +1,75 @@
+[
+  {
+    "codename": "bale",
+    "name": "GT Neo6",
+    "soc": "Qualcomm SM8635 Snapdragon 8s Gen3",
+    "lineage_device_tree": "android_device_realme_bale",
+    "lineage_kernel_repo": "android_kernel_oneplus_sm8650",
+    "kernel_version": "6.1",
+    "is_ab": "sim",
+    "install_method": "fastboot_realme_china",
+    "lineage_versions": [
+      "23.2"
+    ],
+    "source": "LineageOS/lineage_wiki@7a34d162b9210e523d504598ed026aee9f42f600:_data/devices/bale.yml",
+    "criteria_hints": {
+      "c1_unlock": "a verificar: o cadastro indica o método de instalação 'fastboot_realme_china', não garante desbloqueio sem espera ou recusa",
+      "c2_kernel_gpl": "repositório declarado pelo LineageOS: android_kernel_oneplus_sm8650 (licença e fonte a conferir)",
+      "c3_device_tree": "repositório declarado pelo LineageOS: android_device_realme_bale",
+      "c4_kernel_ge_5_10": "sim",
+      "c5_recovery": "não testado"
+    }
+  },
+  {
+    "codename": "luigi",
+    "name": "10 Pro 5G",
+    "soc": "Qualcomm SM6375 Snapdragon 695",
+    "lineage_device_tree": "android_device_realme_luigi",
+    "lineage_kernel_repo": "android_kernel_realme_sm6375",
+    "kernel_version": "5.4",
+    "is_ab": "sim",
+    "install_method": "fastboot_realme",
+    "lineage_versions": [
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "source": "LineageOS/lineage_wiki@7a34d162b9210e523d504598ed026aee9f42f600:_data/devices/luigi.yml",
+    "criteria_hints": {
+      "c1_unlock": "a verificar: o cadastro indica o método de instalação 'fastboot_realme', não garante desbloqueio sem espera ou recusa",
+      "c2_kernel_gpl": "repositório declarado pelo LineageOS: android_kernel_realme_sm6375 (licença e fonte a conferir)",
+      "c3_device_tree": "repositório declarado pelo LineageOS: android_device_realme_luigi",
+      "c4_kernel_ge_5_10": "não",
+      "c5_recovery": "não testado"
+    }
+  },
+  {
+    "codename": "oscar",
+    "name": "9 Pro 5G",
+    "soc": "Qualcomm SM6375 Snapdragon 695",
+    "lineage_device_tree": "android_device_realme_oscar",
+    "lineage_kernel_repo": "android_kernel_realme_sm6375",
+    "kernel_version": "5.4",
+    "is_ab": "sim",
+    "install_method": "fastboot_realme",
+    "lineage_versions": [
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "source": "LineageOS/lineage_wiki@7a34d162b9210e523d504598ed026aee9f42f600:_data/devices/oscar.yml",
+    "criteria_hints": {
+      "c1_unlock": "a verificar: o cadastro indica o método de instalação 'fastboot_realme', não garante desbloqueio sem espera ou recusa",
+      "c2_kernel_gpl": "repositório declarado pelo LineageOS: android_kernel_realme_sm6375 (licença e fonte a conferir)",
+      "c3_device_tree": "repositório declarado pelo LineageOS: android_device_realme_oscar",
+      "c4_kernel_ge_5_10": "não",
+      "c5_recovery": "não testado"
+    }
+  }
+]
