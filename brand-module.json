@@ -1,0 +1,18 @@
+{
+  "brand": "realme",
+  "status": "unverified",
+  "devices": [
+    {
+      "codename": "bale",
+      "model": "GT Neo6"
+    },
+    {
+      "codename": "luigi",
+      "model": "10 Pro 5G"
+    },
+    {
+      "codename": "oscar",
+      "model": "9 Pro 5G"
+    }
+  ]
+}
